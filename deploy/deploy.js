@@ -6,7 +6,7 @@ var exePath = path.resolve(__dirname, './deploy.sh');
 
 
 //Lets define a port we want to listen to
-const PORT=9000;
+const PORT=9001;
 
 //We need a function which handles requests and send response
 function handleRequest(request, response){
@@ -17,8 +17,6 @@ function handleRequest(request, response){
      response.end(stdout);
    }
 });
-
-
 }
 
 //Create a server
