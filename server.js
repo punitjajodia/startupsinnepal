@@ -6,7 +6,7 @@ const PORT=9003;
 
 //We need a function which handles requests and send response
 function handleRequest(request, response){
-    response.end('I deploy automatically!! : ' + request.url);
+    response.end('I deploy AUTOMAGICALLY!! : ' + request.url);
 }
 
 //Create a server
